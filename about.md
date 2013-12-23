@@ -3,7 +3,7 @@ layout: page
 title: About me 
 ---
 
-This is where you could put your "About me" page.
+This is where you could put your "About me" page. potato.
 
 * hi 
 * there

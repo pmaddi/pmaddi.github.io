@@ -8,4 +8,4 @@ Hi, I'm Pranav. I'm a CS student at Yale, and I'll be joining Mozilla's Release 
 Check me out on [LinkedIn][] and [Github]!
 
 [linkedin]: https://www.linkedin.com/in/pranavmaddi
-[github]: http://github.com/pmadd
+[github]: http://github.com/pmaddi

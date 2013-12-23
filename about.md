@@ -3,7 +3,7 @@ layout: page
 title: About me 
 ---
 
-Hi, I'm Pranav. I'm a CS student at Yale, and I'll be interning at Mozilla's Release Management Team this summer!
+Hi, I'm Pranav. I'm a CS student at Yale, and I'll be interning on Mozilla's Release Management Team this summer!
 
 Check me out on [LinkedIn][] and [Github]
 

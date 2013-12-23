@@ -5,5 +5,5 @@ title: About me
 
 This is where you could put your "About me" page.
 
-- hi 
-- there
+* hi 
+* there

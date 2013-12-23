@@ -10,3 +10,4 @@ paginate: 15
 # Details for the RSS feed generator
 url:            'blog url'
 author:         'Pranav Maddi'
+bio:         'some stuff'

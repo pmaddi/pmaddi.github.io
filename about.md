@@ -3,7 +3,9 @@ layout: page
 title: About me 
 ---
 
-This is where you could put your "About me" page. potato.
+Hi, I'm Pranav. I'm a CS student at Yale, and I'll be joining Mozilla's Release Management Team for the summer!
 
-* hi 
-* there
+Check me out on [LinkedIn][] and [Github]!
+
+[linkedin]: https://www.linkedin.com/in/pranavmaddi
+[github]: http://github.com/pmadd

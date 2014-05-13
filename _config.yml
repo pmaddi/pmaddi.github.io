@@ -1,4 +1,4 @@
-name: Pranav's Blog
+name: Pranav
 description: Blog about things
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
@@ -8,6 +8,6 @@ logo: false
 paginate: 15
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Pranav Maddi'
-bio:         http://pranavmaddi.com
+url: http://pranavmaddi.com
+author: 'Pranav Maddi'
+bio: CS Yalie and Mozillian intern

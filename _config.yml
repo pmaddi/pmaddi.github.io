@@ -1,5 +1,5 @@
 name: Pranav
-description: Blog about things
+description: The wonderful world of Pranav
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: redcarpet
@@ -10,4 +10,4 @@ paginate: 15
 # Details for the RSS feed generator
 url: http://pranavmaddi.com
 author: 'Pranav Maddi'
-bio: CS Yalie and Mozillian intern
+bio: Yale CS major and Mozilla intern

@@ -9,7 +9,7 @@ excerpt: "The release dashboard in its current state helps release managers find
 I'm two weeks into my Release Management internship at Mozilla. So far, it has been an incredible experience. 
 
 ![The glorious firefox](http://news.worldwild.org/wp-content/uploads/2008/09/red_panda.jpg)
-<p style="text-align: center">The majestic red panda basking cherishing the open source world</h>
+<p style="text-align: center">The majestic red panda basking cherishing the open source world</p>
 
 For the uninitiated, release managers make sure the right code gets into the codebase. Mozilla ships updates often--Firefox every 6 weeks. We make sure that important features and stable patches ship. Among other things, this involves deciding what bugs and features are critical for the release and ensuring those get completed.
 
@@ -22,7 +22,7 @@ It would be convenient to have an idea of how a release of Firefox is coming alo
 [Willie][Willie], the previous intern on the team has made great progress on a dashboard that does just this. Currently his [dashboard][rrdash] can create charts of key bug metrics. This handy tool can generate a timeseries from any bugzilla query.
 
 ![Release readiness dashboard]({{site.url}}/assets/images/rrdash.png)
-<p style="text-align: center">The release readiness dashboard, by Wille</h>
+<p style="text-align: center">The release readiness dashboard, by Wille</p>
 
 [Bugzilla](https://bugzilla.mozilla.org/) is the vessel of _Agile-ness_ by which Mozilla keeps track of bugs and feautres. For instance, one can currently track the number of bugs marked by the _crasher_ tag, which lends the release manager some insight on what bugs to pay attention to. But bugzilla only gets you so far. 
 

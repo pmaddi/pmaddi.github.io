@@ -32,8 +32,9 @@ Luckily, Mozilla tracks the [number of daily crashes](https://crash-stats.mozill
 - startup time
 - graphics performance
 - cold launch time (for Firefox OS)
-- idle power usage (for Firefox OS), 
-just to name a few. 
+- idle power usage (for Firefox OS)
+
+... just to name a few. 
 
 Right now, these data live in databases managed by different teams. It would be pretty neat to see the important metrics integrated in the [dashboard][rrdash].
 

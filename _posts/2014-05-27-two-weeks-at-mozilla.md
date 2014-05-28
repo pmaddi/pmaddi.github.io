@@ -27,7 +27,14 @@ It would be convenient to have an idea of how a release of Firefox is coming alo
 
 But if release health is your concern, bugs are a noisy feature of your hidden variable. The number of crasher bugs doesn't directly correlate to user experience, since humans must input bugs into bugzilla. There's a delay between when the problem patch lands and the bug is filed. Plus, the bug doesn't relate the number of users affected. To get an idea of how much Firefox is crashing, _look at how much Firefox is crashing_.
 
-Luckily, Mozilla tracks the [number of daily crashes](https://crash-stats.mozilla.com/home/products/Firefox)! We track a whole set of performance metrics too, including startup time and graphics performance, along with cold launch time and idle power usage for Firefox OS, just to name a few. Right now, these data live in databases managed by different teams. It would be pretty neat to see the important metrics integrated in the [dashboard][rrdash].
+Luckily, Mozilla tracks the [number of daily crashes](https://crash-stats.mozilla.com/home/products/Firefox)! We track a whole set of performance metrics too, including 
+- startup time
+- graphics performance
+- cold launch time (for Firefox OS)
+- idle power usage (for Firefox OS), 
+just to name a few. 
+
+Right now, these data live in databases managed by different teams. It would be pretty neat to see the important metrics integrated in the [dashboard][rrdash].
 
 The dashboard in its current state helps release managers find critical bugs. Perhaps it could provide greater insight into the release's health with these integrated metrics.
 

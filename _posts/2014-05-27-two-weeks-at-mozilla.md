@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Two weeks, one dashboard"
-date:   2014-05-27 17:00:00
+date:   2014-05-28 17:00:00
 categories: mozilla intern
 excerpt: "The release dashboard in its current state helps release managers find critical bugs. Perhaps it could provide greater insight into the release's health with these integrated metrics.
 "

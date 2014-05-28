@@ -23,9 +23,9 @@ It would be convenient to have an idea of how a release of Firefox is coming alo
 ![Release readiness dashboard]({{site.url}}/assets/images/rrdash.png)
 <p style="text-align: center">The release readiness dashboard, by Wille</h>
 
-[Bugzilla](https://bugzilla.mozilla.org/) is the vessel of _Agile-ness_ by which Mozilla keeps track of bugs and feautres. But bugzilla will only take you so far. For instance, one can currently track the number of bugs marked by the _crasher_ tag, which lends the release manager some insight on what bugs to pay attention to. 
+[Bugzilla](https://bugzilla.mozilla.org/) is the vessel of _Agile-ness_ by which Mozilla keeps track of bugs and feautres. For instance, one can currently track the number of bugs marked by the _crasher_ tag, which lends the release manager some insight on what bugs to pay attention to. But bugzilla only gets you so far. 
 
-But if release health is your concern, bugs are a noisy feature of your hidden variable. The number of crasher bugs doesn't directly correlate to user experience, since humans must input bugs into bugzilla. There's a delay between when the problem patch lands and the bug is filed. Plus, the bug doesn't relate the number of users affected. To get an idea of how much Firefox is crashing, _look at how much Firefox is crashing_.
+If release health is your concern, bugs are a noisy feature of your hidden variable. The number of crasher bugs doesn't directly correlate to user experience, since humans must input bugs into bugzilla. There's a delay between when the problem patch lands and the bug is filed. Plus, the bug doesn't relate the number of users affected. To get an idea of how much Firefox is crashing, _look at how much Firefox is crashing_.
 
 Luckily, Mozilla tracks the [number of daily crashes](https://crash-stats.mozilla.com/home/products/Firefox)! We track key performance metrics too, including 
 
@@ -36,7 +36,7 @@ Luckily, Mozilla tracks the [number of daily crashes](https://crash-stats.mozill
 
 ... just to name a few. 
 
-Right now, these data live in databases managed by different teams. It would be pretty neat to see the important metrics within the [dashboard][rrdash].
+Right now, these data live on databases managed by different teams. It would be pretty neat to see these data within the [dashboard][rrdash].
 
 The dashboard in its current state helps release managers find critical bugs. Perhaps it could provide greater insight into the release's health with these integrated metrics.
 

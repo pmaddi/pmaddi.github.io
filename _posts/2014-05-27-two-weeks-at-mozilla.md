@@ -23,7 +23,7 @@ It would be convenient to have an idea of how a release of Firefox is coming alo
 ![Release readiness dashboard]({{site.url}}/assets/images/rrdash.png)
 <p style="text-align: center">The release readiness dashboard, by Wille</h>
 
-[Bugzilla](https://bugzilla.mozilla.org/) is the vessel of _Agile-ness_ by which Mozilla keeps track of bugs and feautres. With Willie's [dashboard][rrdash], Users can build charts based on the bugzilla queries, but bugzilla will only take you so far. For instance, one can currently track the number of bugs marked by the _crasher_ tag, which lends the release manager some insight on what bugs to pay attention to. 
+[Bugzilla](https://bugzilla.mozilla.org/) is the vessel of _Agile-ness_ by which Mozilla keeps track of bugs and feautres. But bugzilla will only take you so far. For instance, one can currently track the number of bugs marked by the _crasher_ tag, which lends the release manager some insight on what bugs to pay attention to. 
 
 But if release health is your concern, bugs are a noisy feature of your hidden variable. The number of crasher bugs doesn't directly correlate to user experience, since humans must input bugs into bugzilla. There's a delay between when the problem patch lands and the bug is filed. Plus, the bug doesn't relate the number of users affected. To get an idea of how much Firefox is crashing, _look at how much Firefox is crashing_.
 

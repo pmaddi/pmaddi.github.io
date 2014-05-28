@@ -1,9 +1,9 @@
-name: Pranav
-description: The wonderful world of Pranav
+name: Pranav Maddi
+description: A tech blog
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: redcarpet
-pygments: true
+highlighter: true
 logo: false
 paginate: 15
 

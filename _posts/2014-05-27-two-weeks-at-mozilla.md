@@ -18,7 +18,7 @@ This summer, apart from helping managing a few releases, I'll be working on my i
 
 It would be convenient to have an idea of how a release of Firefox is coming along by glancing at a single page. 
 
-[Willie][Willie], the previous intern on the team has made great progress on a dashboard that does just this. Currently his [dashboard][rrdash] can create charts of key bug metrics. It's very useful already, as it generates a timeseries from any bugzilla query.
+[Willie][Willie], the previous intern on the team has made great progress on a dashboard that does just this. Currently his [dashboard][rrdash] can create charts of key bug metrics. This handy tool can generate a timeseries from any bugzilla query.
 
 ![Release readiness dashboard]({{site.url}}/assets/images/rrdash.png)
 <p style="text-align: center">The release readiness dashboard, by Wille</h>

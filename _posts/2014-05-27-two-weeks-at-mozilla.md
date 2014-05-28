@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Two weeks at Mozilla"
-date:   2014-05-16 10:18:00
+date:   2014-05-27 17:00:00
 categories: mozilla intern
 ---
 As of today, I'm two weeks into my Release Management internship at Mozilla. 

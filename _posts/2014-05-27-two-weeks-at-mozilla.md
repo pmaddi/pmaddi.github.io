@@ -9,7 +9,7 @@ excerpt: "The release dashboard in its current state helps release managers find
 I'm two weeks into my Release Management internship at Mozilla. So far, it has been an incredible experience. 
 
 ![The glorious firefox](http://news.worldwild.org/wp-content/uploads/2008/09/red_panda.jpg)
-<p style="text-align: center">The majestic red panda basking cherishing the open source world</p>
+<p style="text-align: center">The majestic red panda</p>
 
 For the uninitiated, release managers make sure the right code gets into the codebase. Mozilla ships updates often--Firefox every 6 weeks. We make sure that important features and stable patches ship. Among other things, this involves deciding what bugs and features are critical for the release and ensuring those get completed.
 

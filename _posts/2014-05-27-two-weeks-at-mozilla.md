@@ -28,6 +28,7 @@ It would be convenient to have an idea of how a release of Firefox is coming alo
 But if release health is your concern, bugs are a noisy feature of your hidden variable. The number of crasher bugs doesn't directly correlate to user experience, since humans must input bugs into bugzilla. There's a delay between when the problem patch lands and the bug is filed. Plus, the bug doesn't relate the number of users affected. To get an idea of how much Firefox is crashing, _look at how much Firefox is crashing_.
 
 Luckily, Mozilla tracks the [number of daily crashes](https://crash-stats.mozilla.com/home/products/Firefox)! We track a whole set of performance metrics too, including 
+
 - startup time
 - graphics performance
 - cold launch time (for Firefox OS)

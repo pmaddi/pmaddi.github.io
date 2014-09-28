@@ -11,7 +11,7 @@ How do you know that the person logging into your system is the real user? _Mult
 According to [wikipedia](https://en.wikipedia.org/wiki/Multi-factor_authentication):
 > Multi-factor authentication (MFA) is an approach to authentication which requires the presentation of two or more of the three independent authentication factors: a knowledge factor ("something only the user knows"), a possession factor ("something only the user has"), and an inherence factor ("something only the user is")
 
-The knowlege factor is straightforward--use a password. [(But don't roll your own!)](https://crackstation.net/hashing-security.htm)
+The knowlege factor is straightforward--use a password. And remember not to [roll your own.](https://crackstation.net/hashing-security.htm)
 
 Over the web though, inherence factors such as fingerprints, DNA, and blood vessel patterns are out of the question.
 

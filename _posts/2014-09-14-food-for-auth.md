@@ -6,14 +6,16 @@ excerpt: "
 "
 ---
 
-How do you know that the person logging into your system is the real user? Well, you need to use a form of Multi-Factor Authentication.
+How do you know that the person logging into your system is the real user? _Multi-Factor Authentication_.
 
 According to [wikipedia](https://en.wikipedia.org/wiki/Multi-factor_authentication):
 > Multi-factor authentication (MFA) is an approach to authentication which requires the presentation of two or more of the three independent authentication factors: a knowledge factor ("something only the user knows"), a possession factor ("something only the user has"), and an inherence factor ("something only the user is")
 
-The knowlege factor is a given when using a password. Over the web, inherence factors (fingerprints, DNA, vessel patterns, etc.) are out of the question.
+The knowlege factor is straightforward--use a password. [(But don't roll your own!)](https://crackstation.net/hashing-security.htm)
 
-The key here is the knowlege factor. Get a secure key to your user to verify identity. Sounds simple, but 
+Over the web though, inherence factors such as fingerprints, DNA, and blood vessel patterns are out of the question.
+
+Since wikipedia says we need at least two factors, lets focus on the possesssion factor. Get a secure key to your user to verify identity. Sounds simple, but ...
 
 This means that you need to get a key to your user via a secure system.
 

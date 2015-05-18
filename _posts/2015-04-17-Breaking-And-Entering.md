@@ -5,7 +5,7 @@ categories: intern tech internship summer facebook
 excerpt: "To get into my Facebook crib I bruteforced a lockbox in two hours after traveling for thirty-six."
 ---
 
-_To get into my Facebook crib I bruteforced a lockbox in two hours after traveling for thirty-six._
+_To get into my Facebook crib, I bruteforced a lockbox in two hours after traveling for thirty-six._
 
 ![]({{site.url}}/assets/images/hall.png)
 <p style="text-align: center">I don't want to sleep here tonight.</p>
@@ -13,9 +13,9 @@ _To get into my Facebook crib I bruteforced a lockbox in two hours after traveli
 I typed 0419 into the lockbox and it refused to open.
 
 ![]({{site.url}}/assets/images/locked.png)
-<p style="text-align: center">0419 doesn't work :(</p>
+<p style="text-align: center">fml</p>
 
-It's nearly midnight on Saturday and I just flew in from Bangalore. A fucking lockbox is all thats keeping me from going to bed.
+It's nearly midnight on Saturday and I just flew in from Bangalore. A fucking lockbox is keeping me from going to bed.
 
 The Oakwood confirmation email lists some contact numbers. The managers office is closed. I dial the emergency hotline, and hang up after waiting on hold for a few minutes. 
 

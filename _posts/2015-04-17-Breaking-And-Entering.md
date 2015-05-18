@@ -12,8 +12,8 @@ _To get into my Facebook crib, I bruteforced a lockbox in two hours after travel
 
 I typed 0419 into the lockbox and it refused to open.
 
-![]({{site.url}}/assets/images/locked.png)
-<p style="text-align: center">fml</p>
+![]({{site.url}}/assets/images/closeup.png)
+<p style="text-align: center">A closeup of the lockbox</p>
 
 It's nearly midnight on Saturday and I just flew in from Bangalore. A fucking lockbox is keeping me from going to bed.
 

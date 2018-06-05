@@ -368,5 +368,223 @@ def path(root, dest):
 4,5  6,7
 
 
+2015  2016 full time
+
+square
+
+def solve(capacities, target):
+    '''
+        capacities is a list of ints
+        target is int
+    '''
+    state_cache = []
+    inital = [0 for i in range(len(capacities))]
+    state_list = [(inital, [])]
+    def add_to_state_list(new_state, path):
+        if new_state in state_cache:
+            return
+        else:
+            state_cache.append(new_state)
+            state_list.append((new_state, path))
+            
+    for it, path in state_list:
+        if target in it:
+            return (it, path)
+        for cup in range(len(capacities)):
+            # fill cups
+            new_state = it[:]
+            new_state[cup] = capacities[cup]
+            add_to_state_list(new_state, path + ['Fill ' + str(cup)])
+        for cup in range(len(capacities)):
+            # empty cups
+            new_state = it[:]
+            new_state[cup] = 0
+            add_to_state_list(new_state, path + ['Empty ' + str(cup)])
+        for cup_src in range(len(capacities)):
+            for cup_dest in range(len(capacities)):
+                if cup_src != cup_dest:
+                    # pour into other cup
+                    new_state = it[:]
+                    dest_space = capacities[cup_dest] - new_state[cup_dest]
+                    if new_state[cup_src] >= dest_space:
+                        new_state[cup_src] -= dest_space
+                        new_state[cup_dest] += dest_space
+                    else:
+                        new_state[cup_dest] += new_state[cup_src]
+                        new_state[cup_src] = 0
+                    add_to_state_list(new_state, 
+                                      path + 
+                  [‘Pour from ' + 
+                       str(cup_src) + ' to ' + 
+                       str(cup_dest)])
+
+                    # - amount in source
+                    # - "space" in destination (capacity - amount)
+                    # smaller of those two -> transfer
+
+
+solution = solve([4, 9], 7)
+print "state: "
+print solution[0]
+print "steps: "
+print solution[1]
+"""
+capacities: 1, 3
+target: 2
+
+0, 0
+- Fill each one
+- Empty each one
+- Pour from each into each other
+
+
+- Fill 1
+- Pour 1 -> 0
+
+"""
+
+square phone 2
+
+def numPossibleDecodings(code):
+    first = 1
+    second = 1
+    new = 1
+    for i in range(1, len(code)):
+        idx = code[i-1:i+1] 
+        if idx[-1] == '0':
+            new = first 
+        elif idx[0] == '0':
+            new = second 
+        elif int(idx) >= 27:
+            new = second
+        else:
+            new = second + first
+        first = second
+        second = new
+    return new
+        
+
+print numPossibleDecodings('123')
+print numPossibleDecodings('22522')
+
+print numPossibleDecodings("2") == 1
+print numPossibleDecodings("19") == 2
+print numPossibleDecodings("3121") == 3
+print numPossibleDecodings("21216") == 8
+print numPossibleDecodings("786789") == 1
+print numPossibleDecodings("20204") == 1
+print numPossibleDecodings("2010") == 1
+print numPossibleDecodings("110") == 1
+print numPossibleDecodings("10120") == 1
+
+
+
+
+
+
+
+bridgewater final round
+
+product management
+    improve meeting recorders to improve transparency
+
+software engineering
+    theres a phone keypad and chess pieces, and you need to record the number of phone numbers you can create
+
+culture interview
+    what are you bad at
+
+
+
+
+
+awake coding interview
+    convert 123456 -> one hundred twenty three thousand, four hundred fifty six
+
+
+
+
+
+square headquarters interview
+rounds 1,2 on phone
+round 3
+    two paragraphs
+        count n unique words
+        kth word alphabetically
+        all words of length m
+round 4
+    power sets
+    abc -> '' 'a' 'b' 'c' 'ab' 'ac' 'bc' 'abc
+
+
+
+
+
+google online
+def solution(X):
+    def clean(line):
+        return line.lstrip(' ')
+    def depth(line):
+        return len(line) - len(clean(line))
+    path = []
+    out = 0
+    lines = X.split('\n')
+    for ln in lines:
+        path = path[:depth(ln)] + [clean(ln)]
+        if clean(ln).endswith(('.jpeg', '.gif', '.png')):
+            out = max(out, sum([len(i) for i in path]) + len(path))
+    return out
+def solution(X):
+    x_str = str(X)
+    possibles = []
+    for i in xrange(len(x_str)):
+        new_str = x_str[:i]
+        new_str += x_str[i]
+        new_str += x_str[i:]
+        possibles.append(new_str)
+    possible_ints = [int(i) for i in possibles]
+    return max(possible_ints)
+
+google in person (4 interviews)
+interview 1
+- started with coin dynamic programming problem, but saw that I already knew how to do it.
+you need to find the maximum subset of a string containting at most n unique characters.
+for example ABAACABDE => 7
+solution:
+    maintian head and tail indicies as well as a table of counts
+    O(N) time
+
+interview 2:
+you have a sparse spreadsheet
+implement:
+    get, put remove, getCol, getRow
+my solution:
+    idk if best
+    have table of cols to list of guids, table of rows to guids, and guid to (r, c, value) map
+
+interview 3:
+flip number over = original number?
+
+then, generate all numbers where flipped = original
+solution: simple dynamic programming
+def generate(n):
+    if not n:
+        return
+    first = ['']
+    second = ['0', '1', '2', '5', '8']
+    while len(second[0]) <= n:
+        new_one = []
+        for i in ['00', '11', '22', '55', '88', '69', '96']:
+            for j in first:
+                new_one.append(i[0] + j + i[1])
+        first = second
+        second = new_one
+    return second
+
+interview 4:
+kinda weird, design a class interface that takes inputs of ranges and then given a number, returns whether it is in one of the ranges
+
+the final solution required inserting ranges into a sorted list using binary search in log(n) time and looking up if a number is in the range in log(n) time as well
+
 
 

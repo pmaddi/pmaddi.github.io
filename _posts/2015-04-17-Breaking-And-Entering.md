@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Breaking into 111 N Rengstorff Apt 2309"
+title:  "Breaking into my apartment"
 categories: intern tech internship summer facebook
 excerpt: "To get into my Facebook crib I bruteforced a lockbox in two hours after traveling for thirty-six."
 ---
@@ -79,5 +79,3 @@ Code "159". The 316th one I tried.
 I followed up with Oakwood the next day, and the operator had no idea where the code "0419" came from. It's usually the last four digits of the confirmation number: 2629511. (9511==159)
 
 It's gonna be a dope summer.
-
-## Note to self: _Don't use a lockbox for your own shit_

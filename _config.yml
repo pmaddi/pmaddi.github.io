@@ -2,8 +2,7 @@ name: Pranav Maddi
 description: Musings on things
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-markdown: redcarpet
-highlighter: true
+highlighter: rouge
 logo: false
 paginate: 15
 

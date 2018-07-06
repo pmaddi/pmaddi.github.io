@@ -1,5 +1,5 @@
 name: Pranav Maddi
-description: I made a blog
+description: Musings on things
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 markdown: redcarpet
@@ -10,4 +10,4 @@ paginate: 15
 # Details for the RSS feed generator
 url: http://pranavmaddi.com
 author: 'Pranav Maddi'
-bio: Pranav is an intern at Facebook for the summer of 2015 and a CS major at Yale.
+bio: Pranav likes to write software and build businesses

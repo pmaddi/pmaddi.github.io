@@ -3,9 +3,14 @@ layout: page
 title: About me 
 ---
 
-Hi, I'm Pranav. I'm a CS student at Yale, a 2014 summer intern on Mozilla's Release Management Team, and a 2015 Facebook intern!
+Hi, I'm Pranav. I'm the CTO of [VIPVR]. We run a videochat meet & greet service
+for celebrities and their fans.
 
-Check me out on [LinkedIn] and [Github]
+Previously, I've worked at Perpetua Labs, Facebook and Mozilla.
 
+Check me out on [LinkedIn] and [Github]. And reach out at
+pranav.maddi@gmail.com if you'd like to connect.
+
+[VIPVR]: https://vipvrapp.com
 [linkedin]: https://www.linkedin.com/in/pranavmaddi
 [github]: http://github.com/pmaddi

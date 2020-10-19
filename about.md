@@ -3,14 +3,13 @@ layout: page
 title: About me 
 ---
 
-Hi, I'm Pranav. I'm the CTO of [VIPVR]. We run a videochat meet & greet service
-for celebrities and their fans.
+Hi, I'm Pranav. I'm the CTO of [VIPVR].
 
 Previously, I've worked at Perpetua Labs, Facebook and Mozilla.
 
 Check me out on [LinkedIn] and [Github]. And reach out at
 pranav.maddi@gmail.com if you'd like to connect.
 
-[VIPVR]: https://vipvrapp.com
+[Looped]: https://loopedlive.com
 [linkedin]: https://www.linkedin.com/in/pranavmaddi
 [github]: http://github.com/pmaddi

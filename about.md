@@ -7,6 +7,8 @@ Hi, I'm Pranav. I'm the CTO of [Looped].
 
 Previously, I've worked at Perpetua Labs, Facebook and Mozilla.
 
+Yale 2016, BS Computer Science
+
 Check me out on [LinkedIn] and [Github]. And reach out at
 pranav.maddi@gmail.com if you'd like to connect.
 

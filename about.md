@@ -3,7 +3,7 @@ layout: page
 title: About me 
 ---
 
-Hi, I'm Pranav. I'm the CTO of [VIPVR].
+Hi, I'm Pranav. I'm the CTO of [Looped].
 
 Previously, I've worked at Perpetua Labs, Facebook and Mozilla.
 
